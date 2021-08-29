@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="hsfuzz"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/shou/coding/corbfuzz/extension/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j48 -f &quot;/home/shou/coding/corbfuzz/extension/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j48 -f &quot;/home/shou/coding/corbfuzz/extension/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j48 -f &quot;/home/shou/coding/corbfuzz/extension/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j48 -f &quot;/home/shou/coding/corbfuzz/extension/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/shou/coding/corbfuzz/extension/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j48 -f &quot;/home/shou/coding/corbfuzz/extension/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j48 -f &quot;/home/shou/coding/corbfuzz/extension/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j48 -f &quot;/home/shou/coding/corbfuzz/extension/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j48 -f &quot;/home/shou/coding/corbfuzz/extension/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="___">
+				<Option output="/home/shou/coding/corbfuzz/extension/cmake-build-debug/lib___.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shou/coding/corbfuzz/extension/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DHAVE_SKELETON"/>
+					<Add directory="/usr/local/include/php"/>
+					<Add directory="/usr/local/include/php/main"/>
+					<Add directory="/usr/local/include/php/Zend"/>
+					<Add directory="/usr/local/include/php/TSRM"/>
+					<Add directory="/home/shou/coding/corbfuzz/extension/.."/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-11/lib/clang/11.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j48 -f &quot;/home/shou/coding/corbfuzz/extension/cmake-build-debug/Makefile&quot;  VERBOSE=1 ___"/>
+					<CompileFile command="/usr/bin/gmake -j48 -f &quot;/home/shou/coding/corbfuzz/extension/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j48 -f &quot;/home/shou/coding/corbfuzz/extension/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j48 -f &quot;/home/shou/coding/corbfuzz/extension/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="___/fast">
+				<Option output="/home/shou/coding/corbfuzz/extension/cmake-build-debug/lib___.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shou/coding/corbfuzz/extension/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DHAVE_SKELETON"/>
+					<Add directory="/usr/local/include/php"/>
+					<Add directory="/usr/local/include/php/main"/>
+					<Add directory="/usr/local/include/php/Zend"/>
+					<Add directory="/usr/local/include/php/TSRM"/>
+					<Add directory="/home/shou/coding/corbfuzz/extension/.."/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-11/lib/clang/11.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j48 -f &quot;/home/shou/coding/corbfuzz/extension/cmake-build-debug/Makefile&quot;  VERBOSE=1 ___/fast"/>
+					<CompileFile command="/usr/bin/gmake -j48 -f &quot;/home/shou/coding/corbfuzz/extension/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j48 -f &quot;/home/shou/coding/corbfuzz/extension/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j48 -f &quot;/home/shou/coding/corbfuzz/extension/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/shou/coding/corbfuzz/extension/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j48 -f &quot;/home/shou/coding/corbfuzz/extension/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j48 -f &quot;/home/shou/coding/corbfuzz/extension/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j48 -f &quot;/home/shou/coding/corbfuzz/extension/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j48 -f &quot;/home/shou/coding/corbfuzz/extension/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="configure">
+				<Option working_dir="/home/shou/coding/corbfuzz/extension/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j48 -f &quot;/home/shou/coding/corbfuzz/extension/cmake-build-debug/Makefile&quot;  VERBOSE=1 configure"/>
+					<CompileFile command="/usr/bin/gmake -j48 -f &quot;/home/shou/coding/corbfuzz/extension/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j48 -f &quot;/home/shou/coding/corbfuzz/extension/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j48 -f &quot;/home/shou/coding/corbfuzz/extension/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/shou/coding/corbfuzz/extension/hsfuzz.cc">
+			<Option target="___"/>
+		</Unit>
+		<Unit filename="/home/shou/coding/corbfuzz/extension/php_hsfuzz.h">
+			<Option target="___"/>
+		</Unit>
+		<Unit filename="/home/shou/coding/corbfuzz/extension/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

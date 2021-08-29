@@ -1,0 +1,17 @@
+/snap/clion/158/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -G "CodeBlocks - Unix Makefiles" /home/shou/coding/corbfuzz/extension
+-- The C compiler identification is Clang 11.0.0
+-- The CXX compiler identification is Clang 11.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+Using source directory: /usr/local/include/php
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shou/coding/corbfuzz/extension/cmake-build-debug

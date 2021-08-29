@@ -1,0 +1,1 @@
+/usr/bin/clang++ -fPIC -g -shared -Wl,-soname,lib___.so -o lib___.so CMakeFiles/___.dir/hsfuzz.cc.o 

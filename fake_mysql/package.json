@@ -1,0 +1,25 @@
+{
+  "name": "faux-mysql-server",
+  "private": false,
+  "version": "0.1.0",
+  "description": "A library which implements the MySQL server protocol, giving you the ability to create MySQL-like services",
+  "keywords": [
+    "mysql"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CloudQuote/faux-mysql-server.git"
+  },
+  "author": "CloudQuote",
+  "license": "gpl-3.0",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./constants": "./src/constants.js"
+  },
+  "dependencies": {
+    "md5": "^2.3.0",
+    "node-sql-parser": "^3.1.0"
+  }
+}
